@@ -1,0 +1,21 @@
+{
+  "name": "iiitbs",
+  "version": "0.0.1",
+  "description": "IIITB REST Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sm-azure/iiitbs.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/sm-azure/iiitbs/issues"
+  },
+  "dependencies": {
+    "express": "~4.11.0"
+  }
+}
