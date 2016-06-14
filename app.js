@@ -1,4 +1,4 @@
-var http = require('http');
+var http = require('http')
 var ip = '', count = 0
 require('dns').lookup(require('os').hostname(), function (err, add, fam) {
   ip = 'addr: '+add;
@@ -12,8 +12,3 @@ http.createServer(function(req, res){
 }).listen(3000);
 
 console.log('Server started on port 3000\n');
-
-
-
-
-
